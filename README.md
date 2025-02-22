@@ -11,7 +11,9 @@ This project aims to develop a system that detects sudden acceleration of vehicl
 When a sudden acceleration event occurs in the radar system, relevant parameters are sent via an API. 
 The system receives these parameters and plays an alert sound to notify the user. I will write python code by receiving parameters from the radar API.
 
-# cmd
-pip install sounddevice
-pip install numpy
-pip install pyaudio
+# install
+gTTS               2.5.4
+numpy              2.2.3
+PyAudio            0.2.14
+pyttsx3            2.98
+sounddevice        0.5.1
