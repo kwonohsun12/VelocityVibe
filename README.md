@@ -7,3 +7,4 @@ The system receives these parameters and plays an alert sound to notify the user
 # cmd
 pip install sounddevice
 pip install numpy
+pip install pyaudio
