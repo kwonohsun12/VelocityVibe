@@ -16,5 +16,4 @@ gTTS               2.5.4
 numpy              2.2.3
 PyAudio            0.2.14
 pyttsx3            2.98
-pywin32            308
 sounddevice        0.5.1
