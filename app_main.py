@@ -1,5 +1,7 @@
-import math
 import pyaudio
+import numpy as np
+import sounddevice as sd
+import math
 
 class SuddenAccelerationAlert:
     SAMPLE_RATE = 44100
@@ -16,10 +18,16 @@ class SuddenAccelerationAlert:
         frequency = SuddenAccelerationAlert.get_frequency(speed, approaching)
         volume = SuddenAccelerationAlert.get_volume(distance)
 
-        for i in range(int(SuddenAccelerationAlert.TONE_DURATION * SuddenAccelerationAlert.SAMPLE_RATE / 1000)):
-            angle = i / (SuddenAccelerationAlert.SAMPLE_RATE / frequency) * 2.0 * math.pi
-            sample = math.sin(angle) * volume
-            stream.write(sample.to_bytes(4, byteorder='little', signed=True))
+        audio = np.zeros(int(SuddenAccelerationAlert.TONE_DURATION * SuddenAccelerationAlert.SAMPLE_RATE / 1000))
+
+        for i in range(len(audio)):
+            sample = math.sin(2 * math.pi * frequency * i / SuddenAccelerationAlert.SAMPLE_RATE) * volume
+            audio[i] = sample
+
+        audio = (audio * 32767).astype(np.int16)
+        bytes_data = audio.tobytes()
+
+        stream.write(bytes_data)
 
         stream.stop_stream()
         stream.close()
