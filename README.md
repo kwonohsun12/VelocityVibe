@@ -11,7 +11,10 @@ The system receives these parameters and plays an alert sound to notify the user
 2. 100km/h이상일 경우 더 높은음에서 연속 비프알림음 
 3. 자신에게 멀어지는 경우의 알림은 상기의 역펄스 알림음으로 구현
 
-# cmd
-pip install sounddevice
-pip install numpy
-pip install pyaudio
+# install
+gTTS               2.5.4
+numpy              2.2.3
+PyAudio            0.2.14
+pyttsx3            2.98
+pywin32            308
+sounddevice        0.5.1
