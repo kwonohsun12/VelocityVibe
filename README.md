@@ -11,11 +11,17 @@ The system receives these parameters and plays an alert sound to notify the user
 2. 100km/h이상일 경우 더 높은음에서 연속 비프알림음 
 3. 자신에게 멀어지는 경우의 알림은 상기의 역펄스 알림음으로 구현
 
+# Process
+
+![vvprj](C:\kwon\dev\side project\vvprj.jpg)
+
 # Required Packages
-| Package      | Version |  
-|-------------|---------|
+
+| Package     | Version |
+| ----------- | ------- |
 | gTTS        | 2.5.4   |
 | numpy       | 2.2.3   |
 | PyAudio     | 0.2.14  |
 | pyttsx3     | 2.98    |
 | sounddevice | 0.5.1   |
+
