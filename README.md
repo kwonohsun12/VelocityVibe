@@ -13,7 +13,7 @@ The system receives these parameters and plays an alert sound to notify the user
 
 # Process
 
-![vvprj](C:\kwon\dev\side project\vvprj.jpg)
+![Image](https://github.com/user-attachments/assets/c32f6be2-f7d8-4f33-ae24-dfa85dfc5dfb)
 
 # Required Packages
 
