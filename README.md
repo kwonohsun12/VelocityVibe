@@ -13,7 +13,7 @@ The system receives these parameters and plays an alert sound to notify the user
 
 # Process
 
-![Image](https://github.com/user-attachments/assets/c32f6be2-f7d8-4f33-ae24-dfa85dfc5dfb)
+![Image](https://github.com/user-attachments/assets/2844f1f2-9917-4cec-aeb9-4c5f283587d0)
 
 # Required Packages
 
