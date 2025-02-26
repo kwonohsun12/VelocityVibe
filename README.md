@@ -1,4 +1,4 @@
-# VelocityVibe (alarm sound by sudden acceleration of vehicles) (2025.02.22~)
+# VelocityVibe: Rapid Acceleration Detection & Alert (2025.02.22~)
 
 This project aims to develop a system that detects sudden acceleration of vehicles and provides notifications to users. 
 When a sudden acceleration event occurs in the radar system, relevant parameters are sent via an API. 
