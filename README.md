@@ -8,6 +8,7 @@ The system receives these parameters and plays an alert sound to notify the user
 레이더 시스템에서 급발진 이벤트가 발생했을 때 관련 매개변수를 API를 통해 전송하면, 이를 받아 사용자에게 알림음을 재생하여 전달하는 기능입니다.
 
 currently developing through Claude AI and continuously improving notification patterns to effectively communicate with users.
+
 claude ai를 통해 개발중이며 사용자에게 효과적으로 전달할 알림패턴을 지속적으로 개선중에 있습니다.
 
 # Process
